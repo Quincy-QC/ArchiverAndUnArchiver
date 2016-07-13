@@ -15,6 +15,7 @@
 		4B9784BE1CF59B4000635D55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B9784BC1CF59B4000635D55 /* LaunchScreen.storyboard */; };
 		4B9784C91CF59B4000635D55 /* _3UILessonArchiverAndUnArchiverTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B9784C81CF59B4000635D55 /* _3UILessonArchiverAndUnArchiverTests.m */; };
 		4B9784D41CF59B4000635D55 /* _3UILessonArchiverAndUnArchiverUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B9784D31CF59B4000635D55 /* _3UILessonArchiverAndUnArchiverUITests.m */; };
+		4B9784E31CF59B9300635D55 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B9784E21CF59B9300635D55 /* Model.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		4B9784CF1CF59B4000635D55 /* 03UILessonArchiverAndUnArchiverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 03UILessonArchiverAndUnArchiverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B9784D31CF59B4000635D55 /* _3UILessonArchiverAndUnArchiverUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _3UILessonArchiverAndUnArchiverUITests.m; sourceTree = "<group>"; };
 		4B9784D51CF59B4000635D55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B9784E11CF59B9300635D55 /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		4B9784E21CF59B9300635D55 /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				4B9784B21CF59B4000635D55 /* AppDelegate.m */,
 				4B9784B41CF59B4000635D55 /* ViewController.h */,
 				4B9784B51CF59B4000635D55 /* ViewController.m */,
+				4B9784E11CF59B9300635D55 /* Model.h */,
+				4B9784E21CF59B9300635D55 /* Model.m */,
 				4B9784B71CF59B4000635D55 /* Main.storyboard */,
 				4B9784BA1CF59B4000635D55 /* Assets.xcassets */,
 				4B9784BC1CF59B4000635D55 /* LaunchScreen.storyboard */,
@@ -273,6 +278,7 @@
 				4B9784B61CF59B4000635D55 /* ViewController.m in Sources */,
 				4B9784B31CF59B4000635D55 /* AppDelegate.m in Sources */,
 				4B9784B01CF59B4000635D55 /* main.m in Sources */,
+				4B9784E31CF59B9300635D55 /* Model.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
